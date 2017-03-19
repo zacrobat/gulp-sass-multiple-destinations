@@ -1,7 +1,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass');
 
-gulp.task('default', ['sass:watch']);
+gulp.task('default', ['sass', 'sass:watch']);
 
 // folders
 // folder = {
